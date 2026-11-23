@@ -8,16 +8,17 @@ Minor mode for slick cutting: kill the active region, or the current line when n
 
 While `slick-cut-mode` is enabled, the `kill-region` remap is installed, so `M-w` and other kill-region callers follow the same behavior.
 
+## Installation with [quelpa2](https://github.com/quelpa/quelpa2):
+
+``` elisp
+(quelpa2 '(slick-cut-mode :url "https://github.com/steckerhalter/slick-cut-mode"))
+```
+
 ## Usage
 
 ```elisp
-(require 'slick-cut-mode)
 (slick-cut-mode 1)
 ```
-
-## Repository
-
-https://github.com/steckerhalter/slick-cut-mode
 
 ## Functions
 
