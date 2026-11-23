@@ -3,7 +3,7 @@
 ;; Copyright 2026, Reto Hubmann
 
 ;; Author: Reto Hubmann (steckerhalter)
-;; Version: 0.1
+;; Version: 0.2
 ;; URL: https://github.com/steckerhalter/slick-cut-mode
 ;; Package-Origin: (slick-cut-mode :url "https://github.com/steckerhalter/slick-cut-mode")
 ;; Package-Requires: ((emacs "29.1"))
@@ -33,6 +33,12 @@
 ;; same behavior.
 
 ;;; Code:
+
+;;;; Group
+
+(defgroup slick-cut-mode nil
+  "Group for slick-cut."
+  :group 'editing)
 
 ;;;; Function
 
