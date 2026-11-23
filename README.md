@@ -1,6 +1,6 @@
 # slick-cut-mode
 
-Minor mode for slick cutting: kill the active region, or the current line when no region is active.
+Simple minor mode for slick cutting: kill the active region, or the current line when no region is active.
 
 ## Behavior
 
